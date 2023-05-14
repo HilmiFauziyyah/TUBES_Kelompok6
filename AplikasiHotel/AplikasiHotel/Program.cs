@@ -53,6 +53,9 @@ internal class Program
 
                 switch (pilihan)
                 {
+                    case 1:
+                        hotel.CekKetersediaanKamar(); 
+                        break;
                     case 2:
                         hotel.PesanKamar();
                         break;
