@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\marsy\\.nuget\\packages\\": {}
+    "C:\\Users\\aryaf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+      "projectUniqueName": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
       "projectName": "HargaKamar",
-      "projectPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
-      "packagesPath": "C:\\Users\\marsy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
+      "projectPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+      "packagesPath": "C:\\Users\\aryaf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aryaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

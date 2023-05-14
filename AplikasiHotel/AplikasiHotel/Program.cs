@@ -1,4 +1,5 @@
 ﻿
+using Aplikasi_Hotel;
 using AplikasiHotel;
 using HotelApplication;
 
@@ -45,7 +46,8 @@ internal class Program
                 Console.WriteLine("5. Cek Harga");
                 Console.WriteLine("6. Pesan Makanan");
                 Console.WriteLine("7. Cek Fasilitas Kamar");
-                Console.WriteLine("8. Keluar dari Aplikasi");
+                Console.WriteLine("8. Rating Kamar");
+                Console.WriteLine("9. Keluar dari Aplikasi");
 
 
                 Console.Write("\nPilihan Anda (1-6): ");
@@ -92,6 +94,96 @@ internal class Program
                         }
                         break;
                     case 8:
+                        HotelReviewSystem<int> hotelReviews = new HotelReviewSystem<int>();
+
+                        while (true)
+                        {
+                            Console.WriteLine(" -- Sistem Rating dan Ulasan Kamar Hotel -- ");
+                            Console.WriteLine("1. Tambah Ulasan Kamar");
+                            Console.WriteLine("2. Tampilkan Ulasan Kamar");
+                            Console.WriteLine("3. Kembali");
+                            Console.Write("Pilihan Anda: ");
+                            string choice = Console.ReadLine();
+
+                            if (choice == "1")
+                            {
+                                // nomor kamar
+                                int roomNumber;
+                                do
+                                {
+                                    Console.Write("Masukkan Nomor Kamar (101-110): ");
+                                    string roomNumberInput = Console.ReadLine();
+
+                                    if (!int.TryParse(roomNumberInput, out roomNumber) || roomNumber < 101 || roomNumber > 110)
+                                    {
+                                        Console.WriteLine("Nomor Kamar tidak valid. Mohon masukkan angka antara 101 hingga 110.");
+                                    }
+                                } while (roomNumber < 101 || roomNumber > 110);
+
+                                //rating kamar
+                                int rating;
+                                do
+                                {
+                                    Console.Write("Masukkan Rating (1-5): ");
+                                    string ratingInput = Console.ReadLine();
+
+                                    if (!int.TryParse(ratingInput, out rating) || rating < 1 || rating > 5)
+                                    {
+                                        Console.WriteLine("Rating tidak valid. Mohon masukkan angka antara 1 hingga 5.");
+                                    }
+                                } while (rating < 1 || rating > 5);
+
+                                // komentar kamar
+                                Console.Write("Masukkan Komentar: ");
+                                string comment = Console.ReadLine();
+
+                                ReviewKamar<int> review = new ReviewKamar<int>()
+                                {
+                                    RoomNumber = roomNumber,
+                                    Rating = rating,
+                                    Comment = comment
+                                };
+
+                                hotelReviews.AddReview(review);
+                                Console.WriteLine();
+                                Console.WriteLine("Ulasan berhasil ditambahkan.");
+                                Console.WriteLine();
+                            }
+                            else if (choice == "2")
+                            {
+                                List<ReviewKamar<int>> allReviews = hotelReviews.GetReviews();
+                                if (allReviews.Count == 0)
+                                {
+                                    Console.WriteLine();
+                                    Console.WriteLine("Belum ada ulasan kamar.");
+                                    Console.WriteLine();
+                                }
+                                else
+                                {
+                                    Console.WriteLine("-- Ulasan Kamar --");
+                                    foreach (var review in allReviews)
+                                    {
+                                        Console.WriteLine();
+                                        Console.WriteLine("Kamar {0}:", review.RoomNumber);
+                                        Console.WriteLine("Rating: {0}/5", review.Rating);
+                                        Console.WriteLine("Komentar: {0}", review.Comment);
+                                        Console.WriteLine();
+                                    }
+                                }
+                            }
+                            else if (choice == "3")
+                            {
+                                Console.WriteLine("Terima kasih. Sampai jumpa!");
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Pilihan tidak valid. Silakan coba lagi.");
+                                Console.WriteLine();
+                            }
+                        }
+                        break;
+                    case 9:
                         Console.WriteLine("\nTerima kasih telah menggunakan Aplikasi Perhotelan");
                         Environment.Exit(0);
                         break;
