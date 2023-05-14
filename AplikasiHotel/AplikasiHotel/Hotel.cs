@@ -16,7 +16,43 @@ namespace AplikasiHotel
             string[] namaPengunjung = new string[10];
             int[] hargaKamar = new int[10] { 750000, 750000, 750000, 750000, 750000, 1000000, 1000000, 1000000, 1000000, 1500000 };
 
-            public void PesanKamar()
+        public void CekKetersediaanKamar()
+        {
+            // Kontrak pra-kondisi
+            if (jumlahKamar <= 0 || nomorKamar.Length != jumlahKamar || statusKamar.Length != jumlahKamar)
+            {
+                throw new ArgumentException("Parameter tidak valid.");
+            }
+
+            int kamarTersedia = 0;
+
+            Console.WriteLine("\nKetersediaan Kamar:");
+            Console.WriteLine("===================");
+
+            string[] status = new string[] { "tersedia", "terisi" };
+            for (int i = 0; i < jumlahKamar; i++)
+            {
+                // Kontrak pasca-kondisi
+                if (Array.IndexOf(status, statusKamar[i]) < 0)
+                {
+                    throw new InvalidOperationException("Operasi tidak berhasil dilakukan.");
+                }
+
+                int index = Array.IndexOf(status, statusKamar[i]);
+                Console.WriteLine("Kamar " + nomorKamar[i] + " " + status[index]);
+                if (statusKamar[i] == "tersedia")
+                {
+                    kamarTersedia++;
+                }
+            }
+
+            if (kamarTersedia == 0)
+            {
+                Console.WriteLine("Maaf, semua kamar sudah terisi");
+            }
+        }
+
+        public void PesanKamar()
             {
                 // Kontrak pra-kondisi
                 if (jumlahKamar < 1 || nomorKamar.Length != jumlahKamar || statusKamar.Length != jumlahKamar || namaPengunjung.Length != jumlahKamar)
