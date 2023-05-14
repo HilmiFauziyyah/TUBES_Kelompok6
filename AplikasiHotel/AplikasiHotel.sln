@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplikasiHotel", "AplikasiHotel\AplikasiHotel.csproj", "{DE6E3AF3-15BD-45E2-B405-D13028D331A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HargaKamar", "HargaKamar\HargaKamar.csproj", "{2244101C-99E5-4725-9934-06DA3A5FB49C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HargaKamar", "HargaKamar\HargaKamar.csproj", "{2244101C-99E5-4725-9934-06DA3A5FB49C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testing_fasilitas", "testing_fasilitas\testing_fasilitas.csproj", "{2070D6AC-60C5-442E-8C88-7F5D74379F0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2244101C-99E5-4725-9934-06DA3A5FB49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2244101C-99E5-4725-9934-06DA3A5FB49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2244101C-99E5-4725-9934-06DA3A5FB49C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2070D6AC-60C5-442E-8C88-7F5D74379F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2070D6AC-60C5-442E-8C88-7F5D74379F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2070D6AC-60C5-442E-8C88-7F5D74379F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2070D6AC-60C5-442E-8C88-7F5D74379F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
