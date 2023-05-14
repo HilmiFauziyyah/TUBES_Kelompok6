@@ -34,3 +34,21 @@ C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\Aplika
 C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.dll
 C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.pdb
 C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.CopyComplete
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.exe
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.deps.json
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.runtimeconfig.json
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.dll
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.pdb
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.dll
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.pdb
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.AssemblyReference.cache
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.AssemblyInfoInputs.cache
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.AssemblyInfo.cs
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.CoreCompileInputs.cache
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.CopyComplete
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.dll
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\refint\AplikasiHotel.dll
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.pdb
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.genruntimeconfig.cache
+C:\Users\Hilmi Fauziyyah S\Documents\TP\KPL\TUBES_KELOMPOK6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\ref\AplikasiHotel.dll
