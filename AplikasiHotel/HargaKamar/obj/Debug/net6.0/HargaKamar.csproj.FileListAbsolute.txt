@@ -1,0 +1,12 @@
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\bin\Debug\net6.0\HargaKamar.deps.json
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\bin\Debug\net6.0\HargaKamar.dll
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\bin\Debug\net6.0\HargaKamar.pdb
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.csproj.AssemblyReference.cache
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.GeneratedMSBuildEditorConfig.editorconfig
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.AssemblyInfoInputs.cache
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.AssemblyInfo.cs
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.csproj.CoreCompileInputs.cache
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.dll
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\refint\HargaKamar.dll
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.pdb
+C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\ref\HargaKamar.dll

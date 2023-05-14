@@ -5,8 +5,20 @@ internal class Program
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Silahkan Login");
+        Console.WriteLine("Sebelum masuk ke sistem perhotelan");
+        Console.WriteLine("");
 
-        Hotel hotel = new Hotel();
+        Login login = new Login();
+        Console.WriteLine("Username: ");
+        string username = Console.ReadLine();
+
+        Console.WriteLine("Password: ");
+        string password = Console.ReadLine();
+
+        if (login.IsInputValid(username, password))
+        {
+            Hotel hotel = new Hotel();
 
             while (true)
             {
@@ -28,9 +40,18 @@ internal class Program
                     case 2:
                         hotel.PesanKamar();
                         break;
-
+                    case 5:
+                        hotel.HitungHarga();
+                        break;
                 }
             }
+        }
+        else
+        {
+            Console.WriteLine(login.config.Login_gagal);
+        }
+
+            
         
     }
 }

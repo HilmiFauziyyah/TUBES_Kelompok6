@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TotalHarga;
 
 namespace AplikasiHotel
 {
@@ -61,6 +62,35 @@ namespace AplikasiHotel
                     }
                 }
             }
+
+        public void HitungHarga()
+        {
+            Console.Write("\nMasukkan nomor kamar: ");
+
+            int nomor = int.Parse(Console.ReadLine());
+
+            int index = Array.IndexOf(nomorKamar, nomor);
+            if (index == -1)
+            {
+                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " tidak ditemukan");
+                return;
+            }
+
+            if (statusKamar[index] == "tersedia")
+            {
+                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " belum terisi");
+                return;
+            }
+
+            Console.Write("Masukkan lama menginap (dalam hari): ");
+            int lamaMenginap = int.Parse(Console.ReadLine());
+
+
+            HargaKamar hargaKamar = new HargaKamar();
+            int totalHarga = hargaKamar.HitungTotalHarga(nomor, lamaMenginap);
+
+            Console.WriteLine("\nTotal harga untuk kamar " + nomor + " selama " + lamaMenginap + " hari adalah Rp" + totalHarga);
         }
+    }
 
 }

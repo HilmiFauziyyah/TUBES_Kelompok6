@@ -1,20 +1,79 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {}
+    "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {
+    "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
+        "projectUniqueName": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
         "projectName": "AplikasiHotel",
-        "projectPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
-        "packagesPath": "C:\\Users\\marsy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\obj\\",
+        "projectPath": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
+        "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
+        "outputPath": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
+                "projectPath": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "projectName": "HargaKamar",
+        "projectPath": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
+        "outputPath": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
