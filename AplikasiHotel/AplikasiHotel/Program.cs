@@ -24,7 +24,8 @@ internal class Program
             makanan<string> pemesananMakanan = new makanan<string>();
             var roomFacilitiesLibrary = new RoomFacilitiesLibrary();
             var roomFacilitiesList = roomFacilitiesLibrary.GetRoomFacilities();
-
+            PemesananMakananAutomata pesanmakanan = new PemesananMakananAutomata();
+            makanan<string> PemesananMakanan = new makanan<string>();
 
 
 
@@ -32,6 +33,11 @@ internal class Program
             pemesananMakanan.TambahMakanan("Nasi Goreng");
             pemesananMakanan.TambahMakanan("Mie Goreng");
             pemesananMakanan.TambahMakanan("Sate Ayam");
+            
+            //untuk daftar makanan automata 
+            pesanmakanan.TambahMakanan("Nasi Goreng");
+            pesanmakanan.TambahMakanan("Mie Goreng");
+            pesanmakanan.TambahMakanan("Sate Ayam");
 
             Console.WriteLine("\nSelamat Datang Di Sistem Perhotelan");
             Console.WriteLine("===================================");
@@ -68,8 +74,44 @@ internal class Program
                         hotel.HitungHarga();
                         break;
                     case 6:
-                        pemesananMakanan.PesanMakanan();
+                        Console.WriteLine("Apakah anda sudah memesan makanan sebelumnya? (sudah/belum)");
+                        string inputPertanyaan = Console.ReadLine();
+
+                        if (inputPertanyaan.ToLower() == "sudah")
+                        {
+                            while (true)
+                            {
+                                Console.WriteLine(pesanmakanan.GetMessage());
+                                string input = Console.ReadLine();
+
+                                if (input.ToLower() == "tidak")
+                                {
+
+                                    break;
+                                }
+
+                                pesanmakanan.ProcessInput(input);
+
+                                if (pesanmakanan.State == PemesananMakananAutomata.PesanMakananState.Terkonfirmasi)
+                                {
+                                    Console.WriteLine("Pesanan Anda telah diterima.");
+                                    string namaMakanan = pesanmakanan.GetNamaMakanan();
+                                    Console.WriteLine();
+
+                                    pesanmakanan = new PemesananMakananAutomata();
+                                }
+                            }
+                        }
+                        else if (inputPertanyaan.ToLower() == "belum")
+                        {
+                            pemesananMakanan.PesanMakanan();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Input tidak valid.");
+                        }
                         break;
+                        
                     case 7:
                         // Tampilkan fasilitas kamar berdasarkan tipe kamarnya
                         Console.WriteLine("Tipe kamar yang tersedia:");
