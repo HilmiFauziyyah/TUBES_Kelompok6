@@ -47,7 +47,7 @@ namespace AplikasiHotel
 
         public void SetDefault()
         {
-            config = new Config("admin", "pasword123", "Login sukses", "Login gagal");
+            config = new Config("admin", "password123", "Login sukses", "Login gagal");
         }
 
         public bool IsInputValid(string username, string password)
