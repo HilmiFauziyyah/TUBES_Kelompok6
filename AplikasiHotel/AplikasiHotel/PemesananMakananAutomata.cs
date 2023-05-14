@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AplikasiHotel
 {
-    internal class PemesananMakananAutomata
+    public class PemesananMakananAutomata
     {
         public List<string> daftarMakanan = new List<string>();
 
@@ -17,13 +17,13 @@ namespace AplikasiHotel
             Terkonfirmasi
         }
 
-        private PesanMakananState state = PesanMakananState.PesanLagi;
+        public PesanMakananState state = PesanMakananState.PesanLagi;
         public PesanMakananState State
         {
             get { return state; }
         }
 
-        private int makanan = -1;
+        public int makanan = -1;
         public int Makanan
         {
             get { return makanan; }
