@@ -1,0 +1,15 @@
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.exe
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.deps.json
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.runtimeconfig.json
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.dll
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\AplikasiHotel.pdb
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.AssemblyReference.cache
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.AssemblyInfoInputs.cache
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.AssemblyInfo.cs
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.CoreCompileInputs.cache
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.dll
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\refint\AplikasiHotel.dll
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.pdb
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.genruntimeconfig.cache
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\ref\AplikasiHotel.dll
