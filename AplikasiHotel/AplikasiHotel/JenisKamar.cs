@@ -36,14 +36,15 @@ namespace AplikasiHotel
                     room_type = "Suite";
                     current_state = "suite_selected";
                 }
+                //dbc Marsya
                 else
                 {
-                    Console.WriteLine("Input salah, mohon input dengan benar");
+                    Console.WriteLine("input salah, mohon input dengan benar");
                 }
             }
             else
             {
-                Console.WriteLine("Invalid state. Please restart the selection process.");
+                Console.WriteLine("input salah, mohon input dengan benar");
             }
         }
 

@@ -25,21 +25,24 @@ namespace AplikasiHotel
                 throw new ArgumentException("Parameter tidak valid.");
             }
 
-            Console.WriteLine("Silahkan Pilih tipe kamar");
+            Console.WriteLine("Silahkan Pilih Tipe Kamar");
             Console.WriteLine("1. Single Room (101 -105)");
             Console.WriteLine("2. Double Room (106 -109)");
             Console.WriteLine("3. Suite (110)");
             Console.WriteLine();
+
             tipeKamar selection = new tipeKamar();
+            
 
             while (!selection.IsSelectionComplete())
             {
-                Console.WriteLine("Pilih Tipe Kamar:");
+                Console.WriteLine("Pilih Tipe Kamar (1-3):");
                 string user_input = Console.ReadLine();
                 selection.ProcessInput(user_input);
             }
+            string tipe = selection.GetSelectedRoomType();
 
-            Console.WriteLine("Masukkan nomor kamar yang ingin dipesan: ");
+            Console.WriteLine("Masukkan Nomor kamar yang ingin dipesan: ");
             int nomor;
             string input = Console.ReadLine();
             //MARSYA DBC
@@ -81,12 +84,12 @@ namespace AplikasiHotel
                         throw new InvalidOperationException("Operasi tidak berhasil dilakukan.");
                     }
 
-                    Console.WriteLine("\nKamar " + nomor + " berhasil dipesan atas nama " + nama + ", dengan harga " + hargaKamar[i] + " per malam");
+                    Console.WriteLine("\nKamar " + nomor + " bertipe " + tipe + " berhasil dipesan atas nama " + nama + ", dengan harga " + hargaKamar[i] + " per malam");
                     return;
                 }
             }
 
-            Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " tidak tersedia atau sudah terisi");
+            Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " bertipe " + tipe + " tidak tersedia atau sudah terisi");
 
             // Kontrak pasca-kondisi
             for (int i = 0; i < jumlahKamar; i++)
@@ -152,8 +155,8 @@ namespace AplikasiHotel
 
             HargaKamar hargaKamar = new HargaKamar();
             int totalHarga = hargaKamar.HitungTotalHarga(nomor, lamaMenginap);
-
-            Console.WriteLine("\nTotal harga untuk kamar " + nomor + " selama " + lamaMenginap + " hari adalah Rp" + totalHarga);
+            string tipe = selection.GetSelectedRoomType();
+            Console.WriteLine("\nTotal harga untuk kamar " + nomor + " bertipe " + tipe + " selama " + lamaMenginap + " hari adalah Rp" + totalHarga);
         }
 
     }
