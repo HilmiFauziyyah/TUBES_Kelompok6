@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hilmi Fauziyyah S\\Documents\\TP\\KPL\\TUBES_KELOMPOK6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {}
+    "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hilmi Fauziyyah S\\Documents\\TP\\KPL\\TUBES_KELOMPOK6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
+    "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hilmi Fauziyyah S\\Documents\\TP\\KPL\\TUBES_KELOMPOK6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "projectUniqueName": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
         "projectName": "HargaKamar",
-        "projectPath": "C:\\Users\\Hilmi Fauziyyah S\\Documents\\TP\\KPL\\TUBES_KELOMPOK6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
-        "packagesPath": "C:\\Users\\Hilmi Fauziyyah S\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hilmi Fauziyyah S\\Documents\\TP\\KPL\\TUBES_KELOMPOK6\\AplikasiHotel\\HargaKamar\\obj\\",
+        "projectPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "packagesPath": "C:\\Users\\aryaf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hilmi Fauziyyah S\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aryaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
