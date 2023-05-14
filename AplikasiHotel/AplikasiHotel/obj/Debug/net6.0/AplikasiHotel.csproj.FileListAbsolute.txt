@@ -31,3 +31,6 @@ C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\Aplika
 C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.dll
 C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.pdb
 C:\TELKOM UNIVERSITY\SEMESTER 4\KPL\Tubes\kelompok6_tubes\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.CopyComplete
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.dll
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\bin\Debug\net6.0\HargaKamar.pdb
+C:\Users\marsy\Downloads\KPL\TUBES_Kelompok6\AplikasiHotel\AplikasiHotel\obj\Debug\net6.0\AplikasiHotel.csproj.CopyComplete
