@@ -16,43 +16,43 @@ namespace AplikasiHotel
             string[] namaPengunjung = new string[10];
             int[] hargaKamar = new int[10] { 750000, 750000, 750000, 750000, 750000, 1000000, 1000000, 1000000, 1000000, 1500000 };
 
-        public void CekKetersediaanKamar()
-        {
-            // Kontrak pra-kondisi
-            if (jumlahKamar <= 0 || nomorKamar.Length != jumlahKamar || statusKamar.Length != jumlahKamar)
+            public void CekKetersediaanKamar()
             {
-                throw new ArgumentException("Parameter tidak valid.");
-            }
-
-            int kamarTersedia = 0;
-
-            Console.WriteLine("\nKetersediaan Kamar:");
-            Console.WriteLine("===================");
-
-            string[] status = new string[] { "tersedia", "terisi" };
-            for (int i = 0; i < jumlahKamar; i++)
-            {
-                // Kontrak pasca-kondisi
-                if (Array.IndexOf(status, statusKamar[i]) < 0)
+                // Kontrak pra-kondisi
+                if (jumlahKamar <= 0 || nomorKamar.Length != jumlahKamar || statusKamar.Length != jumlahKamar)
                 {
-                    throw new InvalidOperationException("Operasi tidak berhasil dilakukan.");
+                    throw new ArgumentException("Parameter tidak valid.");
                 }
 
-                int index = Array.IndexOf(status, statusKamar[i]);
-                Console.WriteLine("Kamar " + nomorKamar[i] + " " + status[index]);
-                if (statusKamar[i] == "tersedia")
+                int kamarTersedia = 0;
+
+                Console.WriteLine("\nKetersediaan Kamar:");
+                Console.WriteLine("===================");
+
+                string[] status = new string[] { "tersedia", "terisi" };
+                for (int i = 0; i < jumlahKamar; i++)
                 {
-                    kamarTersedia++;
+                    // Kontrak pasca-kondisi
+                    if (Array.IndexOf(status, statusKamar[i]) < 0)
+                    {
+                        throw new InvalidOperationException("Operasi tidak berhasil dilakukan.");
+                    }
+
+                    int index = Array.IndexOf(status, statusKamar[i]);
+                    Console.WriteLine("Kamar " + nomorKamar[i] + " " + status[index]);
+                    if (statusKamar[i] == "tersedia")
+                    {
+                        kamarTersedia++;
+                    }
+                }
+
+                if (kamarTersedia == 0)
+                {
+                    Console.WriteLine("Maaf, semua kamar sudah terisi");
                 }
             }
 
-            if (kamarTersedia == 0)
-            {
-                Console.WriteLine("Maaf, semua kamar sudah terisi");
-            }
-        }
-
-        public void PesanKamar()
+            public void PesanKamar()
             {
                 // Kontrak pra-kondisi
                 if (jumlahKamar < 1 || nomorKamar.Length != jumlahKamar || statusKamar.Length != jumlahKamar || namaPengunjung.Length != jumlahKamar)
@@ -61,7 +61,24 @@ namespace AplikasiHotel
                 }
 
 
-                Console.WriteLine("Masukkan nomor kamar yang ingin dipesan: ");
+                Console.WriteLine("Silahkan Pilih Tipe Kamar");
+                Console.WriteLine("1. Single Room (101 -105)");
+                Console.WriteLine("2. Double Room (106 -109)");
+                Console.WriteLine("3. Suite (110)");
+                Console.WriteLine();
+
+                tipeKamar selection = new tipeKamar();
+
+
+                while (!selection.IsSelectionComplete())
+                {
+                    Console.WriteLine("Pilih Tipe Kamar (1-3):");
+                    string user_input = Console.ReadLine();
+                    selection.ProcessInput(user_input);
+                }
+                string tipe = selection.GetSelectedRoomType();
+
+                Console.WriteLine("Masukkan Nomor kamar yang ingin dipesan: ");
                 int nomor;
                 string input = Console.ReadLine();
                 //MARSYA DBC
@@ -85,7 +102,6 @@ namespace AplikasiHotel
                     }
                 }
 
-
             // Looping untuk mencari nomor kamar yang sesuai
             for (int i = 0; i < jumlahKamar; i++)
                 {
@@ -103,12 +119,12 @@ namespace AplikasiHotel
                             throw new InvalidOperationException("Operasi tidak berhasil dilakukan.");
                         }
 
-                        Console.WriteLine("\nKamar " + nomor + " berhasil dipesan atas nama " + nama + ", dengan harga " + hargaKamar[i] + " per malam");
+                        Console.WriteLine("\nKamar " + nomor + " bertipe " + tipe + " berhasil dipesan atas nama " + nama + ", dengan harga " + hargaKamar[i] + " per malam");
                         return;
                     }
                 }
 
-                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " tidak tersedia atau sudah terisi");
+                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " bertipe " + tipe + " tidak tersedia atau sudah terisi");
 
                 // Kontrak pasca-kondisi
                 for (int i = 0; i < jumlahKamar; i++)
@@ -177,6 +193,6 @@ namespace AplikasiHotel
 
                 Console.WriteLine("\nTotal harga untuk kamar " + nomor + " selama " + lamaMenginap + " hari adalah Rp" + totalHarga);
             }
-    }
+        }
 
 }

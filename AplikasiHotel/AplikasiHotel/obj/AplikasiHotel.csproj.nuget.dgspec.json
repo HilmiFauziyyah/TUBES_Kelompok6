@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {}
+    "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {
+    "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
+        "projectUniqueName": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
         "projectName": "AplikasiHotel",
-        "projectPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
-        "packagesPath": "C:\\Users\\aryaf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\obj\\",
+        "projectPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\AplikasiHotel.csproj",
+        "packagesPath": "C:\\Users\\marsy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\AplikasiHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aryaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
-                "projectPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj"
+              "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
+                "projectPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj"
               }
             }
           }
@@ -63,17 +63,17 @@
         }
       }
     },
-    "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
+    "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "projectUniqueName": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
         "projectName": "HargaKamar",
-        "projectPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
-        "packagesPath": "C:\\Users\\aryaf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aryaf\\Downloads\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
+        "projectPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "packagesPath": "C:\\Users\\marsy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aryaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
