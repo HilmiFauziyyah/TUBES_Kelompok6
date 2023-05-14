@@ -124,7 +124,7 @@ namespace AplikasiHotel
                     }
                 }
 
-                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " bertipe " + tipe + " tidak tersedia atau sudah terisi");
+                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " tidak tersedia atau tidak sesuai ");
 
                 // Kontrak pasca-kondisi
                 for (int i = 0; i < jumlahKamar; i++)

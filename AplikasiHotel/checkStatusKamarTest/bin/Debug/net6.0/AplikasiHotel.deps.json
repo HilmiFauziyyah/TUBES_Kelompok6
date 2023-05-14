@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AplikasiHotel/1.0.0": {
+        "dependencies": {
+          "HargaKamar": "1.0.0"
+        },
+        "runtime": {
+          "AplikasiHotel.dll": {}
+        }
+      },
+      "HargaKamar/1.0.0": {
+        "runtime": {
+          "HargaKamar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AplikasiHotel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HargaKamar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

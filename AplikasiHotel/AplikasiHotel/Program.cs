@@ -1,5 +1,4 @@
-﻿
-using AplikasiHotel;
+﻿using AplikasiHotel;
 using HotelApplication;
 
 internal class Program
@@ -19,12 +18,12 @@ internal class Program
 
         if (login.IsInputValid(username, password))
         {
-            Hotel hotel = new Hotel();
+
             makanan<string> pemesananMakanan = new makanan<string>();
             var roomFacilitiesLibrary = new RoomFacilitiesLibrary();
             var roomFacilitiesList = roomFacilitiesLibrary.GetRoomFacilities();
 
-
+            Hotel hotel = new Hotel();
 
 
             // Menambahkan beberapa makanan ke daftar makanan
@@ -54,7 +53,7 @@ internal class Program
                 switch (pilihan)
                 {
                     case 1:
-                        hotel.CekKetersediaanKamar(); 
+                        hotel.CekKetersediaanKamar();
                         break;
                     case 2:
                         hotel.PesanKamar();
@@ -101,14 +100,13 @@ internal class Program
                 }
             }
         }
+
         else
         {
             Console.WriteLine(login.config.Login_gagal);
         }
-
-            
-        
     }
 }
+
 
 
