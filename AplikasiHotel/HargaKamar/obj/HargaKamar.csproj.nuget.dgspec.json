@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {}
+    "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {}
   },
   "projects": {
-    "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
+    "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "projectUniqueName": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
         "projectName": "HargaKamar",
-        "projectPath": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
-        "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-        "outputPath": "C:\\TELKOM UNIVERSITY\\SEMESTER 4\\KPL\\Tubes\\kelompok6_tubes\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
+        "projectPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\HargaKamar.csproj",
+        "packagesPath": "C:\\Users\\marsy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marsy\\Downloads\\KPL\\TUBES_Kelompok6\\AplikasiHotel\\HargaKamar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

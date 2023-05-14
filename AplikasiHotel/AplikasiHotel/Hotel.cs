@@ -26,11 +26,32 @@ namespace AplikasiHotel
 
 
                 Console.WriteLine("Masukkan nomor kamar yang ingin dipesan: ");
-                int nomor = int.Parse(Console.ReadLine()); ;
-                
+                int nomor;
+                string input = Console.ReadLine();
+                //MARSYA DBC
+                //precondition
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    Console.WriteLine("!!input tidak boleh kosong!!");
+                    return;
+                }
+                else
+                {
+                    try
+                    {
+                        nomor = int.Parse(input);
+                    }
+                    //postcondition
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("!!input bukan angka!!");
+                        return;
+                    }
+                }
 
-                // Looping untuk mencari nomor kamar yang sesuai
-                for (int i = 0; i < jumlahKamar; i++)
+
+            // Looping untuk mencari nomor kamar yang sesuai
+            for (int i = 0; i < jumlahKamar; i++)
                 {
                     // Kamar ditemukan
                     if (nomorKamar[i] == nomor && statusKamar[i] == "tersedia")
@@ -63,34 +84,63 @@ namespace AplikasiHotel
                 }
             }
 
-        public void HitungHarga()
-        {
-            Console.Write("\nMasukkan nomor kamar: ");
+            // Table-driven construction
 
-            int nomor = int.Parse(Console.ReadLine());
-
-            int index = Array.IndexOf(nomorKamar, nomor);
-            if (index == -1)
+            public void CekStatusKamar()
             {
-                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " tidak ditemukan");
-                return;
-            }
 
-            if (statusKamar[index] == "tersedia")
+                string[,] statusKamarTable = new string[jumlahKamar, 2];
+
+                for (int i = 0; i < jumlahKamar; i++)
+                {
+                    if (statusKamar[i] == "tersedia")
+                    {
+                        statusKamarTable[i, 0] = "Tersedia";
+                        statusKamarTable[i, 1] = "";
+                    }
+                    else
+                    {
+                        statusKamarTable[i, 0] = "Terisi";
+                        statusKamarTable[i, 1] = " atas nama " + namaPengunjung[i];
+                    }
+                }
+
+                Console.WriteLine("\nStatus Kamar:");
+                Console.WriteLine("==============");
+
+                for (int i = 0; i < jumlahKamar; i++)
+                {
+                    Console.WriteLine("Kamar " + nomorKamar[i] + " : " + statusKamarTable[i, 0] + statusKamarTable[i, 1]);
+                }
+            }
+            public void HitungHarga()
             {
-                Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " belum terisi");
-                return;
+                Console.Write("\nMasukkan nomor kamar: ");
+
+                int nomor = int.Parse(Console.ReadLine());
+
+                int index = Array.IndexOf(nomorKamar, nomor);
+                if (index == -1)
+                {
+                    Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " tidak ditemukan");
+                    return;
+                }
+
+                if (statusKamar[index] == "tersedia")
+                {
+                    Console.WriteLine("\nMaaf, kamar dengan nomor " + nomor + " belum terisi");
+                    return;
+                }
+
+                Console.Write("Masukkan lama menginap (dalam hari): ");
+                int lamaMenginap = int.Parse(Console.ReadLine());
+
+
+                HargaKamar hargaKamar = new HargaKamar();
+                int totalHarga = hargaKamar.HitungTotalHarga(nomor, lamaMenginap);
+
+                Console.WriteLine("\nTotal harga untuk kamar " + nomor + " selama " + lamaMenginap + " hari adalah Rp" + totalHarga);
             }
-
-            Console.Write("Masukkan lama menginap (dalam hari): ");
-            int lamaMenginap = int.Parse(Console.ReadLine());
-
-
-            HargaKamar hargaKamar = new HargaKamar();
-            int totalHarga = hargaKamar.HitungTotalHarga(nomor, lamaMenginap);
-
-            Console.WriteLine("\nTotal harga untuk kamar " + nomor + " selama " + lamaMenginap + " hari adalah Rp" + totalHarga);
-        }
     }
 
 }

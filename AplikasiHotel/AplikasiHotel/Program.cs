@@ -40,6 +40,9 @@ internal class Program
                     case 2:
                         hotel.PesanKamar();
                         break;
+                    case 3:
+                        hotel.CekStatusKamar();
+                        break;
                     case 5:
                         hotel.HitungHarga();
                         break;
