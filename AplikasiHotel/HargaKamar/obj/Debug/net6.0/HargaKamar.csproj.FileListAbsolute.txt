@@ -46,3 +46,15 @@ C:\Users\aryaf\Downloads\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6
 C:\Users\aryaf\Downloads\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\refint\HargaKamar.dll
 C:\Users\aryaf\Downloads\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.pdb
 C:\Users\aryaf\Downloads\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\ref\HargaKamar.dll
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\bin\Debug\net6.0\HargaKamar.deps.json
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\bin\Debug\net6.0\HargaKamar.dll
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\bin\Debug\net6.0\HargaKamar.pdb
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.AssemblyInfo.cs
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.dll
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\refint\HargaKamar.dll
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\HargaKamar.pdb
+C:\Users\ASUS\Documents\GitHub\TUBES_Kelompok6\AplikasiHotel\HargaKamar\obj\Debug\net6.0\ref\HargaKamar.dll
