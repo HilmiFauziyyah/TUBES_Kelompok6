@@ -60,7 +60,7 @@ namespace AplikasiHotel
                     throw new ArgumentException("Parameter tidak valid.");
                 }
 
-
+                //Marsya 
                 Console.WriteLine("Silahkan Pilih Tipe Kamar");
                 Console.WriteLine("1. Single Room (101 -105)");
                 Console.WriteLine("2. Double Room (106 -109)");
@@ -137,7 +137,7 @@ namespace AplikasiHotel
             }
 
             // Table-driven construction
-
+            //Marsya
             public void CekStatusKamar()
             {
 
